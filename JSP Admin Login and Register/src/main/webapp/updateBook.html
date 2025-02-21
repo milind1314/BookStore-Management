@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Book</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h3 {
+            text-align: center;
+            color: #ff6600;
+            font-size: x-large;
+            font-weight: 700;
+            font-family: "Poppins", sans-serif;
+        }
+        .input-field {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-button {
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-button:hover {
+            background-color: #d35400;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <form action="update" method="post">
+        <h3>UPDATE BOOK</h3>
+        
+        <label for="id"><strong>Book ID to Update:</strong></label>
+        <input type="number" id="id" name="id" class="input-field" required><br>
+        
+        <label for="name"><strong>New Book Name:</strong></label>
+        <input type="text" id="name" name="name" class="input-field" required><br>
+        
+        <label for="author"><strong>New Book Author:</strong></label>
+        <input type="text" id="author" name="author" class="input-field" required><br>
+        
+        <label for="price"><strong>New Book Price:</strong></label>
+        <input type="number" id="price" name="price" class="input-field" required><br>
+        
+        <label for="qty"><strong>New Book Quantity:</strong></label>
+        <input type="number" id="qty" name="qty" class="input-field" required><br>
+        
+        <input type="submit" value="UPDATE" class="login-button">
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Book</title>
+<style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+            text-align: center;
+            margin: 40px 20px;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h3 {
+            color: #6a0dad;
+            font-size: x-large;
+            font-weight: 700;
+            font-family: "Poppins", sans-serif;
+        }
+        .input-field {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background: #6a0dad;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: 0.3s ease;
+        }
+        .btn:hover {
+            background: #ff914d;
+        }
+</style>
+</head>
+<body>
+<div class="container">
+    <form action="add" method="post">
+        <h3>ADD BOOK</h3>
+    
+        <label><strong>Book Id : </strong></label>
+        <input type="number" name="id" class="input-field" required><br>
+        
+        <label><strong>Book Name : </strong></label>
+        <input type="text" name="name" class="input-field" required><br>
+        
+        <label><strong>Book Author : </strong></label>
+        <input type="text" name="author" class="input-field" required><br>
+        
+        <label><strong>Book Price : </strong></label>
+        <input type="number" name="price" class="input-field" required><br>
+        
+        <label><strong>Book Quantity : </strong></label>
+        <input type="number" name="qty" class="input-field" required><br>
+        
+        <input type="submit" value="ADD" class="btn">
+    </form>
+</div>
+</body>
+</html>
