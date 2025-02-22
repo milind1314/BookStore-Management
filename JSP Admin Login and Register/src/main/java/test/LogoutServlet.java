@@ -21,6 +21,8 @@ public class LogoutServlet extends HttpServlet {
             req.setAttribute("msg", "Session Expired...<br>");
             req.getRequestDispatcher("msg.jsp").forward(req, res);
         } else {
+        	hs.removeAttribute("abean");
+        	hs.removeAttribute("alist");
             hs.invalidate(); // Destroy session completely
             req.setAttribute("msg", "Admin Logged Out Successfully...<br>");
             req.getRequestDispatcher("logout.jsp").forward(req, res);
