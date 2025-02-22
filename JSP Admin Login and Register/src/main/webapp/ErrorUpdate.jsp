@@ -78,7 +78,7 @@
     <p class="message"> <%= request.getAttribute("errormessage") %> </p>
     <a href="UpdateBook.html" class="btn">Try again</a>
     <a href="AdminLoginSuccess.jsp" class="btn">Go to Home</a>
-    <a href="home.html" class="btn">Log out</a>
+    <a href="logout" class="btn">Log out</a>
     </div>
     
 </body>

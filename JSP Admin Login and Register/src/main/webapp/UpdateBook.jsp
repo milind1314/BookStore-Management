@@ -78,7 +78,7 @@
     <a href="UpdateBook.html" class="btn">Update Another Book</a>
     <a href="UpdateBook.html" class="btn">Re-update previous book</a>
     <a href="AdminLoginSuccess.jsp" class="btn">Go to Home</a>
-    <a href="home.html" class="btn">Log out</a>
+    <a href="logout" class="btn">Log out</a>
    </div>
 </body>
 </html>

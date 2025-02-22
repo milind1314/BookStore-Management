@@ -63,7 +63,7 @@
     <a href="deleteBook.html" class="btn">🗑 DELETE BOOK</a>
     <a href="updateBook.html" class="btn">✏ UPDATE BOOK</a>
     <a href="viewBook" class="btn">📚 VIEW ALL BOOKS</a>
-    <a href="home.html" class="btn">🚪 LOG OUT</a>
+    <a href="logout" class="btn">🚪 LOG OUT</a>
 </div>
 
 </body>

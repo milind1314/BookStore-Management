@@ -77,7 +77,7 @@
         <p class="message"> <%= request.getAttribute("message") %> </p>
         <a href="UpdateBook.html" class="btn">🔄 Delete Another Book</a>
         <a href="AdminLoginSuccess.jsp" class="btn">🏠 Go to Home</a>
-        <a href="home.html" class="btn">🚪 Log Out</a>
+        <a href="logout.jsp" class="btn">🚪 Log Out</a>
     </div>
 </body>
 </html>

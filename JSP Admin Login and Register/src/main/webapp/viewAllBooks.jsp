@@ -125,7 +125,7 @@
 <div class="btn-container">
     <a href="addBook.html" class="btn">➕ Add Book</a>
     <a href="AdminLoginSuccess.jsp" class="btn">🔙 Go to home</a>
-    <a href="home.html" class="btn">🚪 Log out</a>
+    <a href="logout" class="btn">🚪 Log out</a>
 </div>
 
 </body>
