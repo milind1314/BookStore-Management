@@ -34,11 +34,11 @@ The **Bookstore Management System** is a web-based application that allows admin
 ### Steps to Run the Project:
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/your-repo/bookstore-management.git
+   git clone https://github.com/milind1314/BookStore-Management.git
    ```
 2. **Import into IDE** (Eclipse or IntelliJ IDEA).
 3. **Setup Database:**
-   - Import `bookstore.sql` schema into Oracle.
+   - Create `Bookstore` table in Oracle(or any) database.
 4. **Configure Database Connection:**
    - Update `DBInfo.java` with your database credentials.
 5. **Deploy to Tomcat:**
@@ -67,9 +67,7 @@ Bookstore/
 │   ├── deleteBook.html
 │   ├── logout.jsp
 │
-├── README.md
-├── bookstore.sql
-└── pom.xml (if using Maven)
+└── README.md
 ```
 
 ## 📜 License
