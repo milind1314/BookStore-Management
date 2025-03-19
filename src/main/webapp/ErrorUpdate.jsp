@@ -4,10 +4,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Update failed</title>
+    <title>Update Failed</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Poppins', sans-serif;
             background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
             text-align: center;
             margin: 40px 20px;
@@ -22,25 +22,26 @@
             flex-direction: column;
             align-items: center;
             gap: 15px;
-            margin-top: 50px;
             background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
             width: 350px;
         }
         h2 {
             color: #6a0dad; /* Violet heading */
+            font-size: 22px;
         }
         .message {
-            color: #008000;
-            font-size: 20px;
+            color: white;
+            font-size: 18px;
             font-weight: bold;
             margin-top: 10px;
-            padding: 10px;
-            background: red;
-            border-radius: 5px;
-            border: 1px solid #008000;
+            padding: 12px;
+            background: #d32f2f; /* Dark red */
+            border-radius: 8px;
+            border: 1px solid #b71c1c;
+            width: 90%;
         }
         .btn {
             display: inline-block;
@@ -55,31 +56,26 @@
             transition: 0.3s ease;
             margin-top: 10px;
             text-align: center;
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
         }
         .btn:hover {
             background: #ff914d;
-            
+            transform: scale(1.05);
+            box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
         }
         a {
-            color: #6a0dad;
-            font-weight: bold;
+            color: white;
             text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        a:hover {
-			color: white;
-            text-decoration: underline;
         }
     </style> 
 </head>
 <body>
     <div class="container">
-    <h2>Update Book</h2>
-    <p class="message"> <%= request.getAttribute("errormessage") %> </p>
-    <a href="UpdateBook.html" class="btn">Try again</a>
-    <a href="AdminLoginSuccess.jsp" class="btn">Go to Home</a>
-    <a href="logout.jsp" class="btn">Log out</a>
+        <h2>⚠ Update Failed</h2>
+        <p class="message"> <%= request.getAttribute("errormessage") %> </p>
+        <a href="UpdateBook.html" class="btn">🔄 Try Again</a>
+        <a href="AdminLoginSuccess.jsp" class="btn">🏠 Go to Home</a>
+        <a href="logout.jsp" class="btn">🚪 Log Out</a>
     </div>
-    
 </body>
 </html>

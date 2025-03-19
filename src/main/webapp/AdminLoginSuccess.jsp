@@ -42,6 +42,16 @@
         .btn:hover {
             background: #ff914d;
         }
+        
+        @media (max-width: 480px) {
+            .container {
+                margin-top: 30px;
+            }
+            .btn {
+                width: 180px;
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>

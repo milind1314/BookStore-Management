@@ -6,55 +6,77 @@
     <title>Project Details - Online Bookstore</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: "Poppins", sans-serif;
             background-color: #f4f4f4;
             text-align: center;
             padding: 20px;
         }
         .container {
             background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
             max-width: 600px;
+            width: 90%;
             margin: auto;
         }
         h1 {
-            color: #333;
+            color: #6a0dad;
+            font-size: 24px;
         }
         p {
             font-size: 16px;
-            line-height: 1.5;
+            line-height: 1.6;
+            color: #333;
         }
         .btn {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 12px 20px;
             font-size: 16px;
+            font-weight: bold;
             color: white;
-            background-color: #ff6600;
-            border: none;
-            border-radius: 5px;
+            background-color: #6a0dad;
+            border-radius: 8px;
             text-decoration: none;
-            transition: background 0.3s ease-in-out;
+            transition: all 0.3s ease;
+            margin-top: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
         .btn:hover {
-            background-color: #cc5200;
+            background: #ff914d;
+            transform: translateY(-2px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            font-size: 16px;
+            line-height: 1.8;
+            padding-left: 0;
+        }
+        ul li {
+            list-style: none;
+            padding: 5px 0;
+        }
+        ul li::before {
+            content: "✔ ";
+            color: #6a0dad;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Online Bookstore Management System</h1>
+        <h1>📚 Online Bookstore Management System</h1>
         <p><strong>Description:</strong> A web-based application that allows users to browse and manage books online.</p>
         <p><strong>Technologies Used:</strong> Java, Servlets, JSP, HTML, CSS, Bootstrap, Oracle Database</p>
         <p><strong>Features:</strong></p>
-        <ul style="text-align: left; display: inline-block;">
+        <ul>
             <li>User authentication (Login & Logout)</li>
             <li>View all books</li>
             <li>Admin can add, edit, and delete books</li>
         </ul>
-        <br>
-        <a href="index.html" class="btn">🏠 Back to Home</a>
+        <div><a href="index.html" class="btn">🏠 Back to Home</a></div>
     </div>
 </body>
 </html>
