@@ -73,7 +73,7 @@ Bookstore/
 ## 📜 License
 This project is **open-source** and available for modification.
 
-## 🙌 Contributors
+## 🙌 Author
 - **Milind** (Developer)
 - Feel free to contribute via Pull Requests!
 
