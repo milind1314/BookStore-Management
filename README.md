@@ -50,22 +50,41 @@ The **Bookstore Management System** is a web-based application that allows admin
 ```
 Bookstore/
 ├── src/
-│   ├── test/ (Java Classes - DAO, Beans, Servlets)
-│   ├── DBConnection.java
+│   ├── AdminBean.java
+│   ├── AdminLoginDAO.java
 │   ├── AdminLoginServlet.java
-│   ├── AddBookServlet.java
+│   ├── BookStoreBean.java
+│   ├── DBConnection.java
+│   ├── DBInfo.java
 │   ├── DeleteServlet.java
-│   ├── UpdateServlet.java
+│   ├── DeleteServletDAO.java
 │   ├── LogoutServlet.java
+│   ├── RegisterServlet.java
+│   ├── RegisterServletDAO.java
+│   ├── UpdateBookDAO.java
+│   ├── UpdateBookServlet.java
+│   ├── ViewAllBooksDAO.java
+│   ├── ViewAllBooksServlet.java
 │
-├── WebContent/
-│   ├── index.html
-│   ├── login.jsp
-│   ├── adminDashboard.jsp
+├── WEB-INF/lib
+│   ├── web.xml
+│
+├── Web Pages/
+│   ├── AdminLogin.html
+│   ├── AdminLoginSuccess.jsp
+│   ├── AdminRegister.html
+│   ├── AlreadyLogout.jsp
+│   ├── DeleteBook.jsp
+│   ├── Details.html
+│   ├── ErrorUpdate.jsp
+│   ├── UpdateBook.jsp
 │   ├── addBook.html
-│   ├── updateBook.html
 │   ├── deleteBook.html
+│   ├── index.html
 │   ├── logout.jsp
+│   ├── msg.jsp
+│   ├── updateBook.html
+│   ├── viewAllBook.jsp
 │
 └── README.md
 ```
